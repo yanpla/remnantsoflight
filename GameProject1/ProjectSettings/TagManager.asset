@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: qwetyiop
+    uniqueID: 166747091
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: achter 1
+    uniqueID: 293605689
+    locked: 0
+  - name: achtergrond
+    uniqueID: 2827918913
     locked: 0
