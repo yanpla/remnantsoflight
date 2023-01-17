@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 19809163}
   - component: {fileID: 19809162}
   - component: {fileID: 19809161}
+  - component: {fileID: 19809164}
   m_Layer: 6
   m_Name: Triangle (40)
   m_TagString: Untagged
@@ -262,7 +263,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -345,6 +346,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19809164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19809160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &22323585
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +372,7 @@ GameObject:
   - component: {fileID: 22323588}
   - component: {fileID: 22323587}
   - component: {fileID: 22323586}
+  - component: {fileID: 22323589}
   m_Layer: 6
   m_Name: Triangle (31)
   m_TagString: Untagged
@@ -373,7 +390,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -456,6 +473,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &22323589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22323585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &92257479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1054,7 @@ GameObject:
   - component: {fileID: 204480076}
   - component: {fileID: 204480075}
   - component: {fileID: 204480074}
+  - component: {fileID: 204480077}
   m_Layer: 6
   m_Name: Triangle (35)
   m_TagString: Untagged
@@ -1039,7 +1072,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -1122,6 +1155,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &204480077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204480073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &296068641
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,6 +1292,7 @@ GameObject:
   - component: {fileID: 323199895}
   - component: {fileID: 323199894}
   - component: {fileID: 323199893}
+  - component: {fileID: 323199896}
   m_Layer: 6
   m_Name: Triangle (34)
   m_TagString: Untagged
@@ -1344,6 +1393,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &323199896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323199892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &342721618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +1752,7 @@ GameObject:
   - component: {fileID: 423623133}
   - component: {fileID: 423623132}
   - component: {fileID: 423623131}
+  - component: {fileID: 423623134}
   m_Layer: 6
   m_Name: Triangle (23)
   m_TagString: Untagged
@@ -1705,7 +1770,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -1788,6 +1853,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &423623134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423623130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &425182258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,6 +2532,7 @@ GameObject:
   - component: {fileID: 597800511}
   - component: {fileID: 597800510}
   - component: {fileID: 597800509}
+  - component: {fileID: 597800512}
   m_Layer: 4
   m_Name: Square (23)
   m_TagString: Untagged
@@ -2469,7 +2550,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2552,6 +2633,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &597800512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597800508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 3
 --- !u!1 &602240908
 GameObject:
   m_ObjectHideFlags: 0
@@ -2785,6 +2881,7 @@ GameObject:
   - component: {fileID: 705144047}
   - component: {fileID: 705144046}
   - component: {fileID: 705144045}
+  - component: {fileID: 705144048}
   m_Layer: 4
   m_Name: Square (27)
   m_TagString: Untagged
@@ -2802,7 +2899,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2885,6 +2982,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705144048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705144044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 3
 --- !u!1 &722909550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2896,6 +3008,7 @@ GameObject:
   - component: {fileID: 722909553}
   - component: {fileID: 722909552}
   - component: {fileID: 722909551}
+  - component: {fileID: 722909554}
   m_Layer: 6
   m_Name: Triangle (30)
   m_TagString: Untagged
@@ -2913,7 +3026,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -2996,6 +3109,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &722909554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722909550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 3
 --- !u!1 &774904780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,6 +3246,7 @@ GameObject:
   - component: {fileID: 804371060}
   - component: {fileID: 804371059}
   - component: {fileID: 804371058}
+  - component: {fileID: 804371061}
   m_Layer: 6
   m_Name: Triangle (21)
   m_TagString: Untagged
@@ -3135,7 +3264,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -3218,6 +3347,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &804371061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804371057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &805048456
 GameObject:
   m_ObjectHideFlags: 0
@@ -3451,6 +3595,7 @@ GameObject:
   - component: {fileID: 911561022}
   - component: {fileID: 911561021}
   - component: {fileID: 911561020}
+  - component: {fileID: 911561023}
   m_Layer: 6
   m_Name: Triangle (24)
   m_TagString: Untagged
@@ -3468,7 +3613,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -3551,6 +3696,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &911561023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911561019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &913266271
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,6 +3864,7 @@ GameObject:
   - component: {fileID: 992974788}
   - component: {fileID: 992974787}
   - component: {fileID: 992974786}
+  - component: {fileID: 992974789}
   m_Layer: 6
   m_Name: Triangle (37)
   m_TagString: Untagged
@@ -3721,7 +3882,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -3804,6 +3965,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992974789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992974785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 3
 --- !u!1 &998896229
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,6 +4546,7 @@ GameObject:
   - component: {fileID: 1093486032}
   - component: {fileID: 1093486031}
   - component: {fileID: 1093486030}
+  - component: {fileID: 1093486033}
   m_Layer: 6
   m_Name: Triangle (38)
   m_TagString: Untagged
@@ -4387,7 +4564,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -4470,6 +4647,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1093486033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093486029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &1096169496
 GameObject:
   m_ObjectHideFlags: 0
@@ -4481,6 +4673,7 @@ GameObject:
   - component: {fileID: 1096169499}
   - component: {fileID: 1096169498}
   - component: {fileID: 1096169497}
+  - component: {fileID: 1096169500}
   m_Layer: 6
   m_Name: Triangle (26)
   m_TagString: Untagged
@@ -4498,7 +4691,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -4581,6 +4774,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1096169500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096169496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 3
 --- !u!1 &1105065351
 GameObject:
   m_ObjectHideFlags: 0
@@ -4814,6 +5022,7 @@ GameObject:
   - component: {fileID: 1152243896}
   - component: {fileID: 1152243895}
   - component: {fileID: 1152243894}
+  - component: {fileID: 1152243897}
   m_Layer: 6
   m_Name: Triangle (32)
   m_TagString: Untagged
@@ -4831,7 +5040,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -4914,6 +5123,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152243897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152243893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 3
 --- !u!1 &1170692990
 GameObject:
   m_ObjectHideFlags: 0
@@ -4925,6 +5149,7 @@ GameObject:
   - component: {fileID: 1170692993}
   - component: {fileID: 1170692992}
   - component: {fileID: 1170692991}
+  - component: {fileID: 1170692994}
   m_Layer: 6
   m_Name: Triangle (33)
   m_TagString: Untagged
@@ -4942,7 +5167,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -5025,6 +5250,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &1170692994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170692990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &1173530561
 GameObject:
   m_ObjectHideFlags: 0
@@ -5036,6 +5276,7 @@ GameObject:
   - component: {fileID: 1173530564}
   - component: {fileID: 1173530563}
   - component: {fileID: 1173530562}
+  - component: {fileID: 1173530565}
   m_Layer: 6
   m_Name: Triangle (22)
   m_TagString: Untagged
@@ -5053,7 +5294,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -5136,6 +5377,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &1173530565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173530561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &1273990732
 GameObject:
   m_ObjectHideFlags: 0
@@ -5155,7 +5411,7 @@ GameObject:
   - component: {fileID: 1273990741}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5514,6 +5770,7 @@ GameObject:
   - component: {fileID: 1323171344}
   - component: {fileID: 1323171343}
   - component: {fileID: 1323171342}
+  - component: {fileID: 1323171345}
   m_Layer: 6
   m_Name: Triangle (27)
   m_TagString: Untagged
@@ -5531,7 +5788,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -5614,6 +5871,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1323171345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323171341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 3
 --- !u!1 &1357032800
 GameObject:
   m_ObjectHideFlags: 0
@@ -5625,6 +5897,7 @@ GameObject:
   - component: {fileID: 1357032803}
   - component: {fileID: 1357032802}
   - component: {fileID: 1357032801}
+  - component: {fileID: 1357032804}
   m_Layer: 6
   m_Name: Triangle (36)
   m_TagString: Untagged
@@ -5642,7 +5915,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -5725,6 +5998,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &1357032804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357032800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &1479797223
 GameObject:
   m_ObjectHideFlags: 0
@@ -6291,6 +6579,7 @@ GameObject:
   - component: {fileID: 1759854253}
   - component: {fileID: 1759854252}
   - component: {fileID: 1759854251}
+  - component: {fileID: 1759854254}
   m_Layer: 6
   m_Name: Triangle (39)
   m_TagString: Untagged
@@ -6308,7 +6597,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -6391,6 +6680,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1759854254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759854250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &1796796300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6402,6 +6706,7 @@ GameObject:
   - component: {fileID: 1796796303}
   - component: {fileID: 1796796302}
   - component: {fileID: 1796796301}
+  - component: {fileID: 1796796304}
   m_Layer: 6
   m_Name: Triangle (41)
   m_TagString: Untagged
@@ -6419,7 +6724,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -6502,6 +6807,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &1796796304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796796300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1001 &1843014427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6513,10 +6833,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3615728786944140732, guid: 824a32bead194e243bea6a01441c4888, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -366
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615728786944140732, guid: 824a32bead194e243bea6a01441c4888, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 453
+      objectReference: {fileID: 0}
     - target: {fileID: 4122610805531886752, guid: 824a32bead194e243bea6a01441c4888, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1273990741}
+    - target: {fileID: 4843968071612147912, guid: 824a32bead194e243bea6a01441c4888, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -366
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843968071612147912, guid: 824a32bead194e243bea6a01441c4888, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 453.00012
+      objectReference: {fileID: 0}
     - target: {fileID: 7696341703333247533, guid: 824a32bead194e243bea6a01441c4888, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6614,6 +6950,7 @@ GameObject:
   - component: {fileID: 1875613028}
   - component: {fileID: 1875613027}
   - component: {fileID: 1875613026}
+  - component: {fileID: 1875613029}
   m_Layer: 6
   m_Name: Triangle (43)
   m_TagString: Untagged
@@ -6631,7 +6968,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -6714,6 +7051,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &1875613029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875613025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &1877195734
 GameObject:
   m_ObjectHideFlags: 0
@@ -6725,6 +7077,7 @@ GameObject:
   - component: {fileID: 1877195737}
   - component: {fileID: 1877195736}
   - component: {fileID: 1877195735}
+  - component: {fileID: 1877195738}
   m_Layer: 6
   m_Name: Triangle (42)
   m_TagString: Untagged
@@ -6742,7 +7095,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -6825,6 +7178,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.635}
+--- !u!114 &1877195738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877195734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &1920849757
 GameObject:
   m_ObjectHideFlags: 0
@@ -6867,6 +7235,7 @@ GameObject:
   - component: {fileID: 1938371856}
   - component: {fileID: 1938371855}
   - component: {fileID: 1938371854}
+  - component: {fileID: 1938371857}
   m_Layer: 6
   m_Name: Triangle (28)
   m_TagString: Untagged
@@ -6884,7 +7253,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -6967,6 +7336,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1938371857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938371853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &2001904526
 GameObject:
   m_ObjectHideFlags: 0
@@ -6978,6 +7362,7 @@ GameObject:
   - component: {fileID: 2001904529}
   - component: {fileID: 2001904528}
   - component: {fileID: 2001904527}
+  - component: {fileID: 2001904530}
   m_Layer: 6
   m_Name: Triangle (20)
   m_TagString: Untagged
@@ -6995,7 +7380,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -7078,6 +7463,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2001904530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001904526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &2072381377
 GameObject:
   m_ObjectHideFlags: 0
@@ -7089,6 +7489,7 @@ GameObject:
   - component: {fileID: 2072381380}
   - component: {fileID: 2072381379}
   - component: {fileID: 2072381378}
+  - component: {fileID: 2072381381}
   m_Layer: 6
   m_Name: Triangle (25)
   m_TagString: Untagged
@@ -7106,7 +7507,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -7189,6 +7590,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072381381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072381377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &2073212125
 GameObject:
   m_ObjectHideFlags: 0
@@ -7200,6 +7616,7 @@ GameObject:
   - component: {fileID: 2073212128}
   - component: {fileID: 2073212127}
   - component: {fileID: 2073212126}
+  - component: {fileID: 2073212129}
   m_Layer: 6
   m_Name: Triangle (29)
   m_TagString: Untagged
@@ -7217,7 +7634,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.21133333}
@@ -7300,6 +7717,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2073212129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073212125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b194b029082f49d4fb53c97e5d5436b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDistance: 0
+  speed: 0
+  damage: 1
 --- !u!1 &2101934120
 GameObject:
   m_ObjectHideFlags: 0
