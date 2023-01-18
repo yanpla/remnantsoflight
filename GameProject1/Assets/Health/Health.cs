@@ -23,7 +23,7 @@ public class Health : MonoBehaviour
         }
         else
         {
-            //player dead
+            anim.SetTrigger("Die");
         }
     }
 
