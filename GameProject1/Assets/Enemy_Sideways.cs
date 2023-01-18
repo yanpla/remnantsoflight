@@ -23,6 +23,7 @@ public class Enemy_Sideways : MonoBehaviour
             if (transform.position.x > leftEdge)
             {
                 transform.position = new Vector3(transform.position.x - speed * Time.deltaTime, transform.position.y, transform.position.z);
+                transform.localRotation = Quaternion.Euler(0, 0, 0);
             }
             else
                 movingLeft = false;
@@ -32,6 +33,7 @@ public class Enemy_Sideways : MonoBehaviour
             if (transform.position.x < rightEdge)
             {
                 transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
+                transform.localRotation = Quaternion.Euler(0, 180, 0);
             }
             else
                 movingLeft = true;
