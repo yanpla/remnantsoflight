@@ -38,7 +38,10 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: qwetyiop
+  - name: background 1
+    uniqueID: 2727595111
+    locked: 0
+  - name: background 2
     uniqueID: 166747091
     locked: 0
   - name: Default
