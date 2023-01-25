@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: c667b82fa64b4466baf6dc9dc04b17b0
   - enabled: 1
-    path: Assets/Scenes/lvl - Copy.unity
-    guid: 7bf4a54af0596463194cadb01ed90928
+    path: Assets/Scenes/lvl.unity
+    guid: 165430b70cdc98e4581dee031010ca2c
   - enabled: 1
     path: Assets/Scenes/lvl2.unity
     guid: cfcbcbc0621aa44dea598eb8cd56364c
+  - enabled: 1
+    path: Assets/Scenes/BossRoom.unity
+    guid: e51b3f012b1b44a82a44d9fa031f150f
   m_configObjects: {}
