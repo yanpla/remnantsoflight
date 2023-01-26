@@ -1,9 +1,13 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
-
+    [SerializeField] private GameObject canvasObject;
+    [SerializeField] private GameObject deathObject;
     public float currentHealth { get; private set; }
     private Animator anim;
     private PlayerMovement movement;
@@ -27,6 +31,12 @@ public class Health : MonoBehaviour
         {
             anim.SetTrigger("Die");
             movement.enabled = false;
+            StartCoroutine(waiter());
+            if (canvasObject != null && deathObject != null)
+            {
+                TMP_Text textMeshPro = deathObject.GetComponent<TMP_Text>();
+                textMeshPro.text = "You Died";
+            }
         }
     }
 
@@ -35,4 +45,10 @@ public class Health : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
             TakeDamage(1);
     }
+
+    IEnumerator waiter()
+    {
+    yield return new WaitForSeconds(5);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+}
 }
