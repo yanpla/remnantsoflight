@@ -18,7 +18,7 @@ public class WizardShooting : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer > 2){
+        if(timer > 3){
             timer = 0;
             shoot();
         }
