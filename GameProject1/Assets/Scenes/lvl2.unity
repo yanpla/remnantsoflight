@@ -1942,6 +1942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2135010461500479855, guid: 824a32bead194e243bea6a01441c4888, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2416672649922922791, guid: 824a32bead194e243bea6a01441c4888, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1949,6 +1953,10 @@ PrefabInstance:
     - target: {fileID: 2416672649922922791, guid: 824a32bead194e243bea6a01441c4888, type: 3}
       propertyPath: m_IgnoreReversedGraphics
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615728786944140732, guid: 824a32bead194e243bea6a01441c4888, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -248
       objectReference: {fileID: 0}
     - target: {fileID: 4094102388124507083, guid: 824a32bead194e243bea6a01441c4888, type: 3}
       propertyPath: m_Enabled
@@ -1966,6 +1974,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1756077561}
+    - target: {fileID: 4843968071612147912, guid: 824a32bead194e243bea6a01441c4888, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -248
+      objectReference: {fileID: 0}
     - target: {fileID: 5114732083309863641, guid: 824a32bead194e243bea6a01441c4888, type: 3}
       propertyPath: m_SendPointerHoverToParent
       value: 1
@@ -8322,7 +8334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756077552}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.86, y: -0.18, z: 0}
+  m_LocalPosition: {x: 2.86, y: -1.16, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
