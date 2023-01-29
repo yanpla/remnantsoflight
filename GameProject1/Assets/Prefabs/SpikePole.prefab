@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216922934206875737}
   - component: {fileID: 1216922934206875739}
-  - component: {fileID: 1216922934206875742}
+  - component: {fileID: 2234282319817639005}
   m_Layer: 0
   m_Name: SpikePole
   m_TagString: Untagged
@@ -49,7 +49,7 @@ MonoBehaviour:
   movementDistance: 0
   speed: 0
   damage: 1
---- !u!50 &1216922934206875742
+--- !u!50 &2234282319817639005
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
