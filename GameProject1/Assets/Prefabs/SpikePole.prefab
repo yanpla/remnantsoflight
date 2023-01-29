@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c7a1c3ffb3748498deefc8251ca263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateValue: -0.05
+  RotateValue: -7
 --- !u!61 &1216922936029726139
 BoxCollider2D:
   m_ObjectHideFlags: 0

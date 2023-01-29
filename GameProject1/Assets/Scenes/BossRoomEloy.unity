@@ -813,6 +813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeBall
       objectReference: {fileID: 0}
+    - target: {fileID: 3034843407967452498, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
+      propertyPath: RotateValue
+      value: -100
+      objectReference: {fileID: 0}
     - target: {fileID: 3800281115018818123, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1091,6 +1095,10 @@ PrefabInstance:
     - target: {fileID: 2705620959925656748, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
       propertyPath: m_Name
       value: SpikeBall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034843407967452498, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
+      propertyPath: RotateValue
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 3800281115018818123, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
       propertyPath: m_RootOrder
@@ -1920,6 +1928,10 @@ PrefabInstance:
     - target: {fileID: 2705620959925656748, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
       propertyPath: m_Name
       value: SpikeBall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034843407967452498, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
+      propertyPath: RotateValue
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 3800281115018818123, guid: 05141c3d3e1e34698b1d7266546ad3be, type: 3}
       propertyPath: m_RootOrder
@@ -4014,7 +4026,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1216922936029726138, guid: b16ff8c7a096740819a950bb2bd0af02, type: 3}
       propertyPath: RotateValue
-      value: -0.1
+      value: -70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b16ff8c7a096740819a950bb2bd0af02, type: 3}
@@ -6533,7 +6545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1216922936029726138, guid: b16ff8c7a096740819a950bb2bd0af02, type: 3}
       propertyPath: RotateValue
-      value: -0.07
+      value: -70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b16ff8c7a096740819a950bb2bd0af02, type: 3}
